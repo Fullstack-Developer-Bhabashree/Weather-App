@@ -1,0 +1,27 @@
+
+.weatherBg{
+    background-image: url('../public/assets/images/weather-background.jpg');
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.searchBox{
+    max-width: 576px;
+    
+}
+
+.showResult{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    box-shadow: 2px 2px 20px 8px inset grey;
+    border: 2px 2px solid black;
+}
